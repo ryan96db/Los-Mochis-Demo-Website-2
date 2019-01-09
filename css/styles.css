@@ -1,0 +1,361 @@
+/*browser-sync start --server --directory --files "*"
+ */
+
+/*
+
+
+Centers Restaurant Name*/
+
+/*<!-- Los Mochis Logo Colors: 
+Green: #2D582B
+Yellow: #B5B610
+Red: #780C2C -->*/
+/*Solid Red: #ff0000 */
+/*Gets rid of default margin/padding in browser*/
+body {
+	background-color: #f1ede7;
+
+}
+#containerwithlogo {
+	text-align: center;
+	position: relative;
+	display: block;
+	background
+	
+	
+}
+
+/*Beginning of Navigation Bar*/
+
+#nav {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	/*background-color: #fff;*/
+	
+}
+
+#nav li {
+	display: inline-block;
+
+}
+
+#nav li a {
+	display: inline-block;
+	padding: 5px 5px;
+	/*font-size: 18px;*/
+	text-decoration: none;
+	color: #000000;
+	/*border-right: 1px solid #ccc;*/
+	text-transform: uppercase;
+
+}
+
+#nav li a:hover {
+	color: #fff;
+	background-color: #222;
+	border-radius: 3px;
+}
+
+
+/*Beginning of Image Gallery*/
+
+#slideshowimages {
+	/*width: auto;*/
+	max-height: 450px;
+	text-align: center;
+	display: block;
+	left: 0;
+	right: 0;
+
+}
+
+/*End of Image Gallery*/
+
+/*Beginning of Tiles*/
+
+#menu-tile, #specials-tile, #map-tile {
+	height: auto;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: #fff;
+	
+}
+
+#tiletext {
+	border-width: 0;
+    border-style: solid;
+    background-color: #ffffff;
+    color: #000000;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*End of Tiles*/
+
+
+.fa {
+	font-size: 18px!important;
+	margin-left: 25px;
+}
+
+.panel-footer {
+	margin-top: 20px;
+	background-color: #780C2C;
+	border-top: none;
+	/*color: #000000;*/
+	color: #fff;
+
+
+}
+
+#testimonials p {
+	color: #fff;
+}
+
+.img-responsive {
+	width: 100%;
+	margin-top: 20px;
+}
+
+/*
+Beginning of Menu Stylings*/
+
+#menubutton {
+	
+	position: fixed;
+	z-index: 1000;
+	margin-left: auto;
+}
+
+h1 {
+	color: #000;
+	text-align: center;
+	display: block;
+}
+
+
+/*Styling for each section of the menu*/
+
+/* headlines with lines */
+.decorated{
+     overflow: hidden;
+     text-align: center;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+    color: #000;
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid#780C2C;
+    width: 591px; /* half of limiter*/
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 100%;
+}
+.decorated > span:after{
+    left: 100%;
+}
+
+
+/*Menu Items and Description*/
+h3 {
+	color: #000;
+}
+
+
+p {
+	color: #000;
+	font-style: italic;
+
+
+}
+
+#prices {
+	float: right;
+	margin-top: 12px;
+	clear: right;
+	font-size: 18px;
+}
+
+
+
+#menu-details {
+	text-align: center;
+}
+
+#chile-relleno {
+	margin-left: 50px;
+	font-size: 1.1em;
+	clear: left;
+}
+
+#prices2 {
+	float: right;
+	margin-top: 7px;
+	clear: right;
+	font-size: 18px;
+}
+
+/*Dropdown menu button*/
+
+
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  position: fixed;
+  z-index: 10;
+  background-color: #f9f9f9;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+#myDropdown a:hover {
+	background-color: #780C2C;
+}
+
+
+
+/*End of Menu Page*/
+/*End of Menu Stylings*/
+
+/*Extra Extra Small Devices (iPhones, around 375px, etc.)*/
+@media (min-width: 320px) { 
+
+
+#nav li {
+	display: inline-block;
+	margin-left: 1px;
+
+
+
+}
+#nav li a {
+		font-size: 8px;
+		
+
+
+	}
+	#nav li a img {
+		width: 120px;
+		height: 80px;
+
+		
+	}
+
+
+
+ }
+
+/*// Extra small devices (portrait phones, less than 646px)*/
+
+@media (min-width: 580px) {
+
+	#nav li a {
+		font-size: 12px;
+	}
+	#nav li a img {
+		width: 200px;
+		height: 100px;
+	}
+}
+/*// Small devices (landscape phones, 646px and up)*/
+@media  (min-width: 646px) {
+
+	#nav li a {
+	font-size: 14px;
+
+}
+
+#nav li a img {
+		width: 250px;
+		height: 130px;
+	}
+
+
+}
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+	#nav li a {
+	font-size: 18px;
+
+}
+
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
