@@ -238,7 +238,6 @@ p {
   z-index: 1;
   font-size: auto;
   overflow-y: scroll;
-  overflow-x: scroll;
   height: 350px;
 
 
@@ -273,6 +272,85 @@ p {
 
 /*End of Menu Page*/
 /*End of Menu Stylings*/
+
+/*BEGINNING OF CONTACT FORM*/
+
+form {
+  margin-top: 50px;
+  /*transition: all 4s ease-in-out;*/
+
+}
+
+.form-control {
+  width: 350px;
+  display: block;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+textarea.form-control {
+  max-height: 150px;
+  min-height: 150px;
+  max-width: 350px;
+  min-width: 350px;
+  padding: 6px 12px;
+  margin-right: 8px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+input {
+  height: 50px;
+  display: inline-block;
+  font-size: 18px;
+
+}
+
+form .submit {
+  background: #780C2C;
+  border-color: transparent;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form .submit:hover {
+  background-color: #2D582B;
+}
+
+#phone { /* Phone number */
+	text-align: center;
+	display: block;
+	padding-bottom: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+	color: #000;
+
+}
+
+#fblink {
+	text-decoration: none;
+	color: #000;
+}
+
+#fblink:hover {
+	color: #2D582B;
+}
+
+/*END OF CONTACT FORM*/
 
 /*Extra Extra Small Devices (iPhones, around 375px, etc.)*/
 @media (min-width: 320px) { 
