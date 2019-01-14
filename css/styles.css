@@ -273,6 +273,19 @@ p {
 /*End of Menu Page*/
 /*End of Menu Stylings*/
 
+/*Beginning of Specials*/
+
+#specials {
+	display: block;
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#specialdescription{
+	text-align: center;
+}
 /*BEGINNING OF CONTACT FORM*/
 
 form {
